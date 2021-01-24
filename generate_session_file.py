@@ -16,4 +16,3 @@ API_HASH = os.environ.get("API_HASH", None)
 
 bot = TelegramClient('userbot', API_KEY, API_HASH)
 bot.start()
-
