@@ -309,5 +309,3 @@ class RedisSession(MemorySession):
                 LOGGER.exception(ex.args)
                 return None
     """
-
-
